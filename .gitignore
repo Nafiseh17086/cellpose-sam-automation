@@ -1,13 +1,25 @@
 __pycache__/
 *.py[cod]
+*.egg-info/
 .venv/
 venv/
+.ipynb_checkpoints/
 .DS_Store
+Thumbs.db
 .idea/
 .vscode/
 .cellpose/
-inputs/
+
+# Don't commit working output dirs
 out/
 results/
-*.tif
-*.tiff
+
+# But keep example assets
+!examples/*.png
+!examples/*.jpg
+
+# Large raw imaging files
+*.czi
+*.lif
+*.nd2
+*.ome.tif
