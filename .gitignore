@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+.cellpose/
+inputs/
+out/
+results/
+*.tif
+*.tiff

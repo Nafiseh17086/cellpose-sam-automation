@@ -1,0 +1,6 @@
+cellpose>=4.0
+numpy>=1.24
+pandas>=2.0
+tifffile>=2024.1.30
+scikit-image>=0.22
+matplotlib>=3.7
